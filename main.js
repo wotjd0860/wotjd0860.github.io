@@ -39,3 +39,19 @@ document.getElementById('Port_menu').addEventListener('click', function() {
 document.getElementById('Contact_menu').addEventListener('click', function() {
     window.scrollTo({top: ContactLocation, behavior:'smooth'});
 });
+
+document.getElementById('Start_menu2').addEventListener('click', function() {
+    window.scrollTo({top: StartLocation, behavior:'smooth'});
+});
+
+document.getElementById('About_menu2').addEventListener('click', function() {
+    window.scrollTo({top: AboutLocation, behavior:'smooth'});
+});
+
+document.getElementById('Port_menu2').addEventListener('click', function() {
+    window.scrollTo({top: PortpolioLocation, behavior:'smooth'});
+});
+
+document.getElementById('Contact_menu2').addEventListener('click', function() {
+    window.scrollTo({top: ContactLocation, behavior:'smooth'});
+});
